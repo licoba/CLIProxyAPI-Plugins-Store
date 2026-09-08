@@ -908,6 +908,22 @@
       "tags": [
         "provider"
       ]
+    },
+    {
+      "id": "cpa-prometheus",
+      "name": "CPA Prometheus",
+      "description": "Exports Prometheus metrics for CLIProxyAPI: request, token and latency counters from usage.handle, credential and auth-state gauges, and provider quota windows for Claude, Codex, Antigravity, Gemini CLI, Kimi and xAI.",
+      "author": "giovannirco",
+      "version": "0.2.2",
+      "repository": "https://github.com/giovannirco/cpa-prometheus-plugin",
+      "logo": "https://raw.githubusercontent.com/giovannirco/cpa-prometheus-plugin/main/logo.png",
+      "homepage": "https://github.com/giovannirco/cpa-prometheus-plugin",
+      "license": "MIT",
+      "tags": [
+        "Monitoring",
+        "Usage",
+        "Quota"
+      ]
     }
   ]
 }
